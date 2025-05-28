@@ -1,0 +1,27 @@
+
+Task: 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗲 𝗔𝗜 => Resarch
+
+
+Topic: What is Generative AI?
+
+Generative AI is a type of artificial intelligence that can create new content like text, images, videos, music, or even code. It learns from a large amount of data and then uses that learning to generate something original.
+
+What makes it different from other types of AI is that it doesn't just analyze or classify things. Instead, it tries to generate new outputs based on what it has learned. For example, tools like ChatGPT can write stories or answer questions, and image generators like DALL·E can create pictures from text descriptions.
+
+Some popular generative AI tools are:
+ChatGPT – for text
+DALL·E – for images
+MusicLM – for music
+Codex – for code
+
+People are using generative AI for writing articles, designing images, creating music, making videos, and even helping with programming. It’s helping in saving time and boosting creativity.
+
+But there are also some risks. Sometimes the content it creates might not be accurate or can be used for the wrong purpose like spreading fake news or making deepfake videos. So it's important to use it responsibly.
+
+I did this research using Google and watched a few YouTube videos. I found it really interesting and helpful in understanding how AI is becoming more creative and useful in different fields.
+
+Date: [5/28/2025]
+By: Alishba Javed
+Frontend developer 
+City: Tando Allahyar
+Country: Pakistan
