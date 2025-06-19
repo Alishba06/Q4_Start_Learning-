@@ -1,0 +1,87 @@
+
+
+Task 2 => Learn About FastAPI
+
+Topic: What is FastAPI?
+
+FastAPI is a modern and fast web framework for building APIs using Python. It is especially designed to help developers build efficient APIs with minimal code, great performance, and automatic documentation.
+
+FastAPI supports both normal (synchronous) and advanced (asynchronous) code, which means it can handle many requests at once without slowing down. It is built on top of Starlette (for web handling) and Pydantic (for data validation), which makes it very powerful and reliable.
+
+Step 1: 🌐 How to Install FastAPI:
+
+To start using FastAPI, we need to install it using pip. We also need a server like Uvicorn to run the app.
+
+Run these commands in your terminal:
+
+=> Command: pip install fastapi
+=> Command: pip install "uvicorn[standard]"
+
+
+
+Step 2: 🧪 How to Create Your First FastAPI App:
+        Make a Python file, for example: `main.py`
+
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"message": "Hello, FastAPI!"}
+
+
+Step 3: Then run this command to start the server:
+
+uvicorn main:app --reload
+
+
+Now open your browser and check:
+
+.http://127.0.0.1:8000 → to see your API response
+
+.http://127.0.0.1:8000/docs → to see interactive Swagger UI docs
+
+.http://127.0.0.1:8000/redoc → to see alternative documentation
+
+
+
+
+✨ Key Features of FastAPI:
+
+.Asynchronous Support: Handles thousands of requests efficiently.
+
+.Automatic Docs: Swagger UI and ReDoc are created automatically.
+
+.Python Type Hints: Makes your code cleaner and safer.
+
+.Built-in Data Validation: Uses Pydantic to make sure your inputs are correct.
+
+.Fast Performance: One of the fastest Python frameworks.
+
+.Easy to Use: Simple syntax, readable code.
+
+
+
+✅ Benefits of FastAPI:
+
+.Saves development time by creating docs automatically.
+
+.Helps prevent bugs by using type hints.
+
+.Scales easily for big applications.
+
+.Works well with Machine Learning and AI models.
+
+.Perfect for both small projects and enterprise-level APIs.
+
+
+📌 Summary:
+
+I found FastAPI very interesting and easy to understand. It's powerful yet beginner-friendly. 
+What I liked the most is how it auto-generates interactive documentation. 
+FastAPI is becoming popular among Python developers and is great for anyone who wants to build fast and modern APIs.
+
+
+
